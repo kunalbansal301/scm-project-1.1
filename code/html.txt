@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food</title>
+  <link rel="stylesheet" href="search.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+   -->
+  <style>
+    .container{
+        width: 400px;
+        height:fit-content;
+        /* align-items: top; */
+        /* /* padding: 5px; */
+      position:fixed; 
+    }
+    </style> 
+</head>
+
+
+<body style=" overflow-y: clip; overflow-x: hidden;">
+
+  <section>
+    <input type="checkbox" id="check">
+    <header>
+    
+      <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="file:///Users/kunalbansal/Desktop/project/page.html" target="_blank">About</a>
+        <a href="file:///Users/kunalbansal/Desktop/project/contactform.html" target="_blank">Contact Us</a>
+        <a href="file:///Users/kunalbansal/Desktop/project/codepenanimationtry.html" target="_blank">Food</a>
+        <a href="file:///Users/kunalbansal/Downloads/loginform-2.html" target="_blank">Login</a>
+        <a href="file:///Users/kunalbansal/Downloads/signup.html"target="_blank">Sign up</a>
+
+      </div>
+      <div id="search-box">
+        <i class="fa fa-search"></i>
+        <input type="text" placeholder="Search">
+      </div>
+
+      <label for="check">
+        <i class="fas fa-bars menu-btn"></i>
+        <i class="fas fa-times close-btn"></i>
+      </label>
+    </header>
+    <div class="content">
+      <form action="doctors.html">
+      <div class="middle">
+        <div id="option">
+          <input name="state"  list="brow"id="vr" placeholder="Select Region">
+          <datalist id="brow">
+            <option value="Chandigarh">
+            <option value="mohali">
+            <option value="panchkula">
+        
+          </datalist>  
+        </div>
+        <div id="option1">
+          <input name="speciality" list="brow1"id="vr1" placeholder="Speciality">
+          <datalist id="brow1">
+            <option value="chinese">
+            <option value="north-indian">
+            <option value="waffles">
+          </datalist>  
+        </div>
+        <input type="submit" value="Search" id="bt1"/>
+      </div>
+      </form>
+      <div class="info">
+        <h2>Foodie<br><span># we are here to deliver </span></h2>
+        <div class="typewriter">
+        <p>Deliveries from your favourite restaurants and takeaways to your door. We, as foodies, believe in proper food authentication from the time it is picked up until it is given to you, because you are our most essential asset. Don't go hungry because your hunger buddy has arrived. Delicious food awaits your arrival!!</p>
+<!--   
+         <button onclick="myFunction()">Are u lucky</button>
+        <div id="snackbar">Give us a try we never disappoint ..</div>   -->
+        <h1>
+          <a href="" class="typewrite" data-period="100" data-type='[ "Hi, Im foodie", "Your food buddy", "#WE deliver", "#we care" ]' style="text-align: center; color: #000;text-decoration: solid;touch-action: auto;text-align: left;">
+            <span class="wrap"></span>
+          </a>
+        </h1>
+        <!-- <a href="" class="info-btn">More info</a> -->
+        </div>
+      </div>
+      
+      <div class="services" style="position: relative;right: 63px">
+        <div class="card">
+          <div class="slide slide1">
+            <div class="content">
+              <div class="icon" id="cd1">
+              </div>
+
+            </div>
+
+          </div>
+          <div class="slide slide2">
+            <div class="content">
+              <h3>
+                <a href="file:///Users/kunalbansal/Desktop/project/harshitriderpage.html" style="text-decoration: none; color: rgba(0, 0, 0, 0.651);">Work with ous </a>
+
+              </h3>
+
+              <p>.</p>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="card">
+
+          <div class="slide slide1">
+
+            <div class="content">
+
+              <div class="icon" id="cd2">
+  
+              </div>
+            </div>
+
+          </div>
+
+          <div class="slide slide2">
+
+            <div class="content">
+
+              <h3>
+
+                <a href="file:///Users/kunalbansal/Desktop/project/newmembership.html" style="text-decoration: none;background-color: transparent; color: rgba(0, 0, 0, 0.651);">Membership</a>
+              </h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="slide slide1">
+            <div class="content">
+              <div class="icon" id="cd3">
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="slide slide2">
+
+            <div class="content">
+
+              <h3>
+
+                <a href="file:///Users/kunalbansal/Desktop/project/comments.html" style="text-decoration: none; color: rgba(0, 0, 0, 0.651);">Comments</a>
+
+              </h3>
+
+              <p>Rate us</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+<section id="icons" style="background-color: beige;">
+    <br>
+  <div class="media-icons">
+    <a href="https://www.facebook.com/zuck"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://twitter.com/CHARANJITCHANNI?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/byre.in/"><i class="fab fa-instagram"></i></a>
+  </div>
+</section>
+  <section class="footer">
+  <video src="./Multicolor Blast Logo_free.mp4" type="video/mp4" muted class="vid" 
+  loop style="height: 180px; align-content: center;"></video>
+          <script>
+        
+              let clip = document.querySelector(".vid")
+              clip.addEventListener("mouseover", function (e) {
+                  clip.play();
+              })
+              clip.addEventListener("mouseout", function (e) {
+                  clip.pause();
+              })
+          </script>
+    </p> 
+    <p>All rights reserved</p>
+    
+    <p>Made by <div class="media-icons"><i class="fas fa-heart"></i></div>Foodie Brains</i>
+</section>
+<script src="snacbar.js"></script>
+</body>
+</html>
