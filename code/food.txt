@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" a href="stylecodepen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <section>
+      <section id="fda_side_bar">
+        <div class="menu_icon">
+          <i class="fa fa-bars"></i>
+        </div>
+        <div class="menu">
+          <ul>
+            <li>delux</li>
+            <li>New arrivals</li>
+            <li class="active">Popular </li>
+          </ul>
+        </div>
+      </section>
+      <section id="fda_header_bar" class="col-12">
+        <div class="row">
+          <div class="col-12">
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Food</span>
+          </div>
+        </div>
+        <div class="row fda_search_row">
+          <div class="col-12">
+            <i class="fa fa-search"></i>
+            <input type="text" class="fda_ip_search" placeholder="Search by food/restaurant">
+          </div>
+        </div>
+      </section>
+        <div class="food-container">
+        <figure class="snip1107 blue"><img src="./dessert-assortment.jpg" alt="Desserts"/>
+            <figcaption>
+              <div><span>Explore</span></div>
+              <div>
+                <h3>DESSRTS</h3>
+              </div><a href="file:///Users/kunalbansal/Desktop/project/project3.html"></a>
+            </figcaption>
+          </figure>
+          <figure class="snip1107 red "><img src="./istockphoto-162244500-1024x1024.jpeg" alt="NORTH INDIAN"/>
+            <figcaption>
+              <div><span>Explore</span></div>
+              <div>
+                <h3>NORTH-INDIAN</h3>
+              </div><a href="file:///Users/kunalbansal/Desktop/project/northindian.html"></a>
+            </figcaption>
+          </figure>
+          <figure class="snip1107 yellow"><img src="./istockphoto-844466876-1024x1024.jpeg" alt="sample12"/>
+            <figcaption>
+              <div><span>Explore</span></div>
+              <div>
+                <h3>Fast Food-Mania</h3>
+              </div><a href="file:///Users/kunalbansal/Desktop/project/fastfood.html"></a>
+            </figcaption>
+          </figure>
+          <figure class="snip1107 navy"><img src="./southindianfood.jpg" alt="sample12"/>
+            <figcaption>
+              <div><span>Explore</span></div>
+              <div>
+                <h3>SouthIndain-special</h3>
+              </div><a href="#"></a>
+            </figcaption>
+          </figure>
+          <figure class="snip1107 yellow"><img src="./istockphoto-972654870-1024x1024.jpeg" alt="sample12"/>
+            <figcaption>
+              <div><span>Explore</span></div>
+              <div>
+                <h3>Beverages</h3>
+              </div><a href="file:///Users/kunalbansal/Desktop/project/beverages.html"></a>
+            </figcaption>
+          </figure>
+          <figure class="snip1107 blue"><img src="./photo-1540420773420-3366772f4999.jpeg" alt="sample12"/>
+            <figcaption>
+              <div><span>Expore</span></div>
+              <div>
+                <h3>Healthy</h3>
+              </div><a href="#"></a>
+            </figcaption>
+          </figure>
+          </div>
+            <span class="ribbon1"><span> LIMITED OFFER</span></span>
+            <span class="ribbon2">S<br>P<br>E<br>C<br>I<br>A<br>L</span>
+          
+          <aside>
+            <div class="card-container">
+              <div class="card">
+                <div class="side"></div>
+                <div class="side back">50 % off</div>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="card">
+                <div class="side"></div>
+                <div class="side back">20 % off!</div>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="card">
+                <div class="side"></div>
+                <div class="side back">30 % off</div>
+              </div>
+            </div>
+          </aside>
+          <p id="content">We care for u.
+    </section>
+    <section>
+      <p>ghevcghewfvghefkwbv</p>
+    </section>
+</body>
+</html>
