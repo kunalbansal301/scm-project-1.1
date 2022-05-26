@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: "Times New Roman", Times, serif;}
+* {box-sizing: border-box;}
+
+
+
+body {
+    color: #2e3333;
+    font: normal 100%/1.6 "ibm-plex-sans",sans-serif;
+    /* font-size: 16px; */
+    /* font-size: 1rem; */
+    line-height: 1.5;
+    letter-spacing: 0;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+}
+
+
+.page section:last-child {
+    padding-bottom: 7.5rem;
+}
+.faq-list {
+    background: #fbfbfb;
+    padding: 3.75rem 0;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+
+.faq-list .row>ul>li {
+    background: #fff;
+    border-radius: 0.3125rem;
+    padding: 7px 0;
+    color: #2e3333;
+    cursor: pointer;
+    margin-bottom: 1.25rem;
+    position: relative;
+    transition: height .2s cubic-bezier(.54,.01,.5,1);
+    overflow: hidden;
+    box-shadow: 0 0 5px 0 #e8e8e8;
+}
+.faq-list .row>ul>li .faq__question {
+    font-weight: 400;
+    padding: 1.25rem 4.375rem 1.25rem 1.875rem;
+    display: block;
+    color: #000;
+}
+
+.faq-list .row>ul>li.open .faq__answer {
+    display: block;
+}
+.faq-list .row>ul>li .faq__answer {
+    /* display: none; */
+    padding: 0.0625rem 1.875rem 1.25rem;
+    cursor: auto;
+    color: #828585;
+    margin-top: -26px;
+}
+
+.row--narrow {
+    max-width: 50.625rem;
+}
+@media (min-width: 1290px)
+.row {
+    padding: 0;
+}
+
+.row {
+   margin:0 auto;
+}
+
+</style>
+<body>
+
+
+<section class="faq-list slice slice--faq_list"><div class="row row--narrow"><div><h2 style="padding-left:40px;color:black;">Frequently asked questions</h2></div> <ul><li class="faq open" data-closedheight="84" data-openheight="471" style="height: 471px;"><span class="faq__question">What are the requirements for being a rider?</span> <div class="faq__answer" style=""><p>To ride with Deliveroo you’ll need:</p><ul><li>Proof of your right to work in the UK as self-employed</li><li>A smartphone – (iOS 11 and above) or Android (6.0 and above)</li><li>Your own vehicle (bicycle, scooter, or car) with the necessary safety equipment</li><li>A UK bank account</li></ul><p>You must also:</p><ul><li>Be over 18</li><li>Have no unspent criminal convictions</li><li>Cars and motorised scooters will also need food delivery insurance as well as regular motor vehicle insurance.</li></ul></div></li><li class="faq open" data-closedheight="84" data-openheight="575" style="height: 575px;"><span class="faq__question">What documents do I need?</span> <div class="faq__answer" style=""><p>One document to prove your right to work in the UK, which could be:</p><ul><li>UK/EEA passport</li><li>EEA ID card (plus additional photo ID)</li><li>Non-EEA passport, with valid visa (including immigration status) or Biometric Residence Permit</li><li>UK birth/adoption certificate with National Insurance number</li></ul><p>One document to prove your address, which could be:</p><ul><li>A bank or credit card statement (not from an online bank like Monzo or Starling)</li><li>An original utility bill (excluding mobile phone)</li></ul><p>If you’re applying to ride with a car or scooter you’ll also need to provide:</p><ul><li>UK/EEA driving licence (or provisional licence and CBT for scooters)</li><li>Proof of food delivery insurance</li></ul></div></li><li class="faq open" data-closedheight="84" data-openheight="1249" style="height: 1249px;"><span class="faq__question">What insurance do I need?</span> <div class="faq__answer" style=""><p>For cars and motorised scooter you'll need both ‘<strong>Social, Domestic &amp; Pleasure</strong>’ and ‘<strong>Hire &amp; Reward</strong>’ insurance when working with Deliveroo.</p><h4><strong>Social, Domestic &amp; Pleasure (SD&amp;P)</strong></h4><p>This is standard insurance that covers you for the everyday use of your vehicle. It covers you for the times when you’re not using your vehicle for your work. SD&amp;P insurance is a legal requirement for any vehicle that has not been declared off-road.</p><h4><strong>Hire and Reward (H&amp;R)</strong></h4><p>Your SD&amp;P insurance does not cover you for your food delivery work with Deliveroo. If you’re delivering food in return for payment, in addition to SD&amp;P you’ll need to have: </p><ul><li>Hire and reward insurance, or</li><li>Fast food delivery insurance, or</li><li>Carriage of goods, including food, for hire and reward insurance</li></ul><p>These are the specific type of cover that Deliveroo riders need to have in place in order to carry out food deliveries in a car or on a scooter. It covers you when you use your car or scooter for work. We’ll need to see proof of this insurance before you start riding with us.</p><p><strong>Not sure where to get your insurance?&nbsp;We find a lot of riders use these&nbsp;providers:</strong></p><p><strong>Zego</strong>&nbsp;offer pay-as-you-go courier insurance - plus, they're integrated with our app, so you only pay for the time you're online. You can read more&nbsp;<a href="https://www.zego.com/promotions/get-on-the-road-with-deliveroo/?utm_source=Deliveroo&amp;utm_medium=Work%20Provider&amp;utm_campaign=UK_Delivery_Onboarding&amp;utm_term=Engagement">here</a></p><p><strong>TradeX</strong>&nbsp;provides food delivery insurance. You can read more&nbsp;<a href="https://www.tradex.com/">here</a></p><p><strong>Acorn</strong>&nbsp;provides food delivery insurance for couriers. You can read more&nbsp;<a href="https://www.acorninsure.co.uk/car-insurance/courier-car-insurance/">here</a></p><p></p><h4><strong>What insurance does Deliveroo provide?</strong></h4><p>When working with Deliveroo riders and anyone using your account is covered by:</p><ul><li>Free personal injury and income protection (all riders)</li><li>Free public liability (covers cyclists&nbsp;all the time, and scooters/cars when they’re walking to pick up or drop-off an order)</li></ul><p><a href="https://riders.deliveroo.com/en-gb/support/new-riders/what-does-deliveroos-free-rider-insurance-cover">You can find out more about this free insurance cover here.</a></p></div></li><li class="faq open" data-closedheight="84" data-openheight="623" style="height: 623px;"><span class="faq__question">What does Deliveroo’s free rider insurance cover?</span> <div class="faq__answer" style=""><p>Our market leading insurance cover means that whenever you’re out on the road with us, you’re protected in the event of an accident. Plus if an injury means you are unable to work, your earnings are protected while you recover.</p><p>It’s totally free and covers you whenever you go online with us.</p><p>Cyclists are also covered by public liability insurance while working – and motorised scooter and car riders are covered whenever they’re ‘off-vehicle’, for example, when walking to pick up and deliver orders. This protects you against claims made against you by other people, for their personal injury or property damage, as a result of an accident while riding.</p><p>You can view more information about this insurance cover, including policy terms and conditions, and excess fee details <a href="https://roocommunity.com/free-rider-insurance/">here.</a></p><p><strong>Motorised sScooter and car riders will still need to have third-party liability insurance for their vehicle, as well as food delivery insurance, as required by law. <a href="https://riders.deliveroo.com/en-gb/support/new-riders/what-insurance-do-i-need">You can find out about these insurance products here</a>.</strong></p></div></li><li class="faq open" data-closedheight="84" data-openheight="373" style="height: 373px;"><span class="faq__question">How do I get paid?</span> <div class="faq__answer" style=""><p>Riders get paid for each delivery they make. The exact delivery fee varies per order and includes a variable distance fee. You will be told of the delivery fee payable before you accept the order.&nbsp;</p><p>Fees are paid every week on a Tuesday. If you want your fees sooner, you can use our cash out feature in the app, for a 50p fee.</p><p>Riders keep 100% of any tips they receive and these are paid at the same time as the rest of your fees.</p></div></li><li class="faq open" data-closedheight="84" data-openheight="845" style="height: 845px;"><span class="faq__question">What kit do you offer?</span> <div class="faq__answer" style=""><p>Once you’ve joined you can order professional kit from the Deliveroo Kit Store – we’re running a special offer where core kit items are free. <strong>Here’s what you can get for free, once you’ve joined Deliveroo:</strong></p><p><strong>Bicycles</strong></p><ul><li>Reflective jacket</li><li>Phone mount</li><li>Helmet</li><li>Small thermal bag</li><li>Insulated backpack</li></ul><p><strong>Scooters</strong></p><ul><li>Reflective jacket</li><li>Phone mount</li><li>Insulated backpack</li></ul><p><strong>Cars</strong></p><ul><li>Two thermal bags, one of which should be minimum 36cm x 36cm x 43cm</li><li>Phone mount</li></ul><p>You’re not required to wear Deliveroo branded kit when on the app or delivering for Deliveroo. You’re welcome to buy kit from a supplier of your choice but your kit will need to meet our minimum safety standards.</p></div></li><li class="faq open" data-closedheight="84" data-openheight="213" style="height: 213px;"><span class="faq__question">Can I provide my own kit?</span> <div class="faq__answer" style=""><p>Yes, you’re not required to wear Deliveroo branded kit when on the app or delivering for Deliveroo. You’re welcome to buy kit from a supplier of your choice but your kit will need to meet our minimum safety standards.</p></div></li></ul></div></section>
+
+
+
+
+</body>
+</html>
